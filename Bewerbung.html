@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="description" content="Beispiel-Design von SelfHTML.org">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/style.css">
+	<title>Peros & Peros Transporte GmbH</title>
+</head>
+<body>
+
+<header>
+    <a id="logo" title="zurück zur Startseite!" href="index.html"><img src="img/titel2.png"  alt="Webseiten Name"></a>
+    
+    <nav id="navigation">
+
+	
+    <ul>
+      	<li><a href="index.html">Home</a></li>
+		<li><div class="Service"><a  href="Service.html">Service 
+  <div class="Service-content">
+       <a href="P&P.html">P&P Logistik</a>
+    <a href="P3.html">P3 Cab Cologne</a>
+    <a href="Peros&Peros.html">Peros&Peros Transporte</a> </a></li>
+		<li><a href="Über uns.html">Über uns</a></li>
+		<li><a aria-current="page">Bewerbung</a></li>
+		<li><a href="Kontakt.html">Kontakt</a></li>
+    </ul>
+	</nav>   
+	</div>
+	
+    
+	<form action="SENDEADRESSE" id="ft-form" method="POST" accept-charset="UTF-8" enctype="multipart/form-data">
+  <fieldset>
+    <legend>Stelle</legend>
+    <label>
+      Bewerbung für *
+      <select name="Bewerbung für" required>
+        <option>Kraftfahrer</option>
+        <option>Personenbeförderungsfahrer</option>
+		<option>Paketzusteller</option>
+      </select>
+    </label>
+  </fieldset>
+  <fieldset>
+    <legend>Persönliche Angaben</legend>
+    <div class="two-cols">
+      <label>
+        Vorname *
+        <input type="text" name="Vorname" required>
+      </label>
+      <label>
+        Familienname *
+        <input type="text" name="Familienname" required>
+      </label>
+    </div>
+    <div class="two-cols">
+      <label>
+        Staatsbürgerschaft
+        <input type="text" name="Staatsbürgerschaft">
+      </label>
+      <label>
+        Geburtsdatum
+        <input type="date" name="Geburtsdatum"<p style="color: black;"></p>
+    </div>
+    <label>
+      Adresse
+      <input type="text" name="Adresse">
+    </label>
+    <div class="two-cols">
+      <label>
+        PLZ
+        <input type="text" name="PLZ">
+      </label>
+      <label>
+        Ort
+        <input type="text" name="Ort">
+      </label>
+    </div>
+    <div class="two-cols">
+      <label>
+        Telefon *
+        <input type="tel" name="Telefon" required>
+      </label>
+      <label>
+        E-Mail-Adresse *
+        <input type="email" name="E-Mail" required>
+      </label>
+    </div>
+  </fieldset>
+ <fieldset>
+    <div>
+      <label>
+        <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+        Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben für die Bearbeitung dieser Bewerbung, einverstanden bin. *
+      </label>
+    </div>
+  </fieldset>
+  <div class="btns">
+    <input type="text" name="_gotcha" value="" style="display:none;">
+    <input type="submit" value="Bewerbung absenden"<p style="color: black;"></p>>
+  </div>
+</form>
